@@ -1,0 +1,59 @@
+@import url("androg.css");
+
+@media (max-width: 1195px) {
+    #linkLogo{
+        margin-right: 25%;
+    }
+}
+
+@media (max-width: 1045px) {
+    #linkLogo{
+        margin-right: 20%;
+    }
+}
+
+@media (max-width: 945px) {
+    #linkLogo{
+        margin-right: 10%;
+    }
+}
+
+@media (max-width: 845px) {
+    header{
+        position: relative;
+        width: 100%;
+        border: none;
+    }
+    #linkLogo{
+        margin-right: 25%;
+    }
+    header nav{
+        display: none;
+        position: absolute;
+        width: 100%;
+        top: 60px;
+    }
+    header nav ul{
+        display: flex;
+        flex-direction: column;
+        border-bottom: 1px solid var(--Cor_Font4);
+        width: 100%;
+        padding: 0px;
+    }
+    header nav ul li{
+        text-align: end;
+        padding: 20px 0px 20px 0px;
+        width: 100%;
+        border-top: 1px solid var(--Cor_Font4);
+    }
+    header nav ul li a{
+        width: 100%;
+    }
+    header label{
+        display: block;
+    }
+
+    input[type = checkbox]:checked ~ nav{
+        display: block;
+    }
+}

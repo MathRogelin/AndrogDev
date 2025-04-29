@@ -7,7 +7,7 @@ function navbarEstado(){
     navbar.addEventListener("change", (e)=>{
         if(navbar.checked){
             console.log("Abriu menu...")
-            labelIcon.innerHTML = `<i class="fa-solid fa-xmark"></i>`
+            labelIcon.innerHTML = `<i class="fa-solid fa-x"></i>`
         }else{
             console.log("Fechou menu...")
             labelIcon.innerHTML = `<i class="fa-solid fa-bars"></i>`

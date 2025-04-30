@@ -15,23 +15,25 @@ body{
     padding: 0px;
     font-family: var(--Font_Family);
     font-weight: bolder;
-    color: var(--Cor_Font);
+    color: var(--Cor_Font2);
+    background-color: var(--Cor_Font);
 }
 header{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--Cor_Font2);
+    background-color: var(--Cor_Font);
     border-bottom: 1px solid var(--Cor_Font4);
 }
 #linkLogo{
     padding: 30px;
     font-size: 18px;
-    color: var(--Cor_Font);
+    color: var(--Cor_Font2);
     margin-right: 40%;
 }
 header a{
     font-size: 16px;
+    color: var(--Cor_Font2);
     text-decoration: none;
 }
 header label, input{
@@ -39,7 +41,7 @@ header label, input{
     display: none;
 }
 header nav{
-    background-color: var(--Cor_Font2);
+    background-color: var(--Cor_Font);
 }
 header nav ul{
     list-style: none;
@@ -49,7 +51,7 @@ header nav ul{
 }
 header nav ul li a{
     padding: 30px;
-    color: var(--Cor_Font);
+    color: var(--Cor_Font2);
 }
 header nav ul li a:hover{
     transition: 0.3s;

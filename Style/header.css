@@ -25,13 +25,13 @@
         border: none;
     }
     #linkLogo{
-        margin-right: 25%;
+        margin-right: 18%;
     }
     header nav{
         display: none;
         position: absolute;
         width: 100%;
-        top: 60px;
+        top: 100px;
     }
     header nav ul{
         display: flex;

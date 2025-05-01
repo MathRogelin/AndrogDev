@@ -28,16 +28,20 @@ header{
 #linkLogo{
     display: flex;
     align-items: center;
-    padding: 30px 0px 30px 0px;
+    padding: 20px 0px 20px 0px;
     font-size: 18px;
     color: var(--Cor_Font2);
-    margin-right: 35%;
+    margin-right: 45%;
     height: 100%;
+}
+#linkLogo:hover{
+    color: var(--Cor_Font3);
+    transition: 0.3s;
 }
 #linkLogo img{
     width: 50px;
-    padding: 0px 5px 0px 0px;
-    border-radius: 100%;
+    margin: 0px 15px 0px 0px;
+    border-radius: 100px;
 }
 header a{
     font-size: 16px;
@@ -58,7 +62,8 @@ header nav ul{
     justify-content: center;
 }
 header nav ul li a{
-    padding: 30px;
+    padding: 30px 0px 30px 0px;
+    margin: 0px 60px 0px 0px;
     color: var(--Cor_Font2);
 }
 header nav ul li a:hover{

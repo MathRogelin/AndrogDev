@@ -31,7 +31,7 @@
         display: none;
         position: absolute;
         width: 100%;
-        top: 100px;
+        top: 80px;
     }
     header nav ul{
         display: flex;

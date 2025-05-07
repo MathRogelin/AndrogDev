@@ -1,7 +1,8 @@
 :root{
     --Cor_Font:#000;
     --Cor_Font2:#fff;
-    --Cor_Font3:#5fcaff;
+    --Cor_Font3:#7fd76f;
+    --Cor_Font3_2:#6fbb62;
     --Cor_Font4:#e3e3e3;
 
     --Font_Family: "Source Sans 3", sans-serif;;
@@ -16,21 +17,21 @@ body{
     font-family: var(--Font_Family);
     font-weight: bolder;
     color: var(--Cor_Font2);
-    background-color: var(--Cor_Font);
+    background-color: var(--Cor_Font2);
 }
 header{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--Cor_Font);
-    border-bottom: 1px solid var(--Cor_Font4);
+    background-color: var(--Cor_Font3);
+    border-bottom: 1px solid var(--Cor_Font3);
 }
 #linkLogo{
     display: flex;
     align-items: center;
     padding: 20px 0px 20px 0px;
     font-size: 18px;
-    color: var(--Cor_Font2);
+    color: var(--Cor_Font);
     margin-right: 45%;
     height: 100%;
 }
@@ -45,15 +46,16 @@ header{
 }
 header a{
     font-size: 16px;
-    color: var(--Cor_Font2);
+    color: var(--Cor_Font);
     text-decoration: none;
 }
 header label, input{
     font-size: 20px;
+    color: var(--Cor_Font);
     display: none;
 }
 header nav{
-    background-color: var(--Cor_Font);
+    background-color: var(--Cor_Font3);
 }
 header nav ul{
     list-style: none;
@@ -64,9 +66,16 @@ header nav ul{
 header nav ul li a{
     padding: 30px 0px 30px 0px;
     margin: 0px 60px 0px 0px;
-    color: var(--Cor_Font2);
+    color: var(--Cor_Font);
 }
 header nav ul li a:hover{
     transition: 0.3s;
     color: var(--Cor_Font3);
+}
+/* section home-hero */
+.home-hero {
+    background: linear-gradient(rgba(163, 163, 163, 0.5), rgba(76, 76, 76, 0.5)), 
+    url('https://cdn.pixabay.com/photo/2017/06/25/21/12/background-2442009_1280.jpg') center / cover repeat;
+
+    height: 100vh;
 }
